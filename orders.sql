@@ -26,9 +26,6 @@ CREATE TABLE orders(
     SET total = 24
     WHERE invoice_id = 5;
 
-    DELETE
-    FROM invoice_line
-    WHERE invoice_id = 1;
 
     DELETE
     FROM invoice
